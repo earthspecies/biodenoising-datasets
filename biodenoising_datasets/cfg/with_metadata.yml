@@ -1,0 +1,110 @@
+# Output data config
+output:
+  audio_timelength: 30.0 
+  targetsr: 16000
+  seed: 42
+
+# Input Data config
+input:
+#### animals vocalizations 
+  xeno_canto_labeled:
+    download: yes
+    path: xeno_canto_labeled
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noisy
+    split: dev
+  watkins:
+    download: yes
+    path: watkins
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noisy
+    split: dev
+  asa_berlin_reference:
+    download: yes
+    path: asa_berlin
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noisy
+    split: dev
+#### noise
+  deepship:
+    download: yes
+    path: deepship
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  marsmbari_noise:
+    path: marsmbari
+    download: yes
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 256000
+    tag: noise
+    split: train
+  noaa_sanctsound_small_noise:
+    download: yes
+    path: noaa_sanctsound
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 48000
+    tag: noise
+    split: train
+    nparts: 6
+  urbansound:
+    download: yes
+    path: UrbanSound
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  idmt_traffic:
+    download: yes
+    path: idmt_traffic
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  tut2016:
+    download: yes
+    path: tut2016
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  fsd50k:
+    download: yes
+    path: FSD50K
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  shipsear:
+    download: yes
+    path: shipsear
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train

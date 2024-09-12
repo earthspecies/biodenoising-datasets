@@ -1,0 +1,12 @@
+torch
+torchaudio
+torch_time_stretch
+protobuf==3.20.*
+tfrecord
+numpy
+scipy
+soundfile
+pandas
+noisereduce
+asteroid
+librosa

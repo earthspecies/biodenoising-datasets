@@ -1,0 +1,4 @@
+mkdir ~/data/south_alaskan_humpback_whales_raw
+gsutil cp gs://south_alaskan_humpback_whales/south_alaskan_humpback_whales_raw.zip ~/data/south_alaskan_humpback_whales_raw
+unzip ~/data/south_alaskan_humpback_whales_raw/south_alaskan_humpback_whales_raw.zip -d ~/data/south_alaskan_humpback_whales_raw
+rm ~/data/south_alaskan_humpback_whales_raw/south_alaskan_humpback_whales_raw.zip

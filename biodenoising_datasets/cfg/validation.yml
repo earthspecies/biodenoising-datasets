@@ -1,0 +1,19 @@
+# Output data config
+output:
+  audio_timelength: 30.0 
+  targetsr: 16000
+  seed: 42
+
+# Input Data config
+input:
+### RUN WITH DRY-RUN JUST TO DOWNLOAD THE DATA
+  biodenoising_validation:
+    download: yes
+    path: biodenoising_validation
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 48000
+    tag: clean
+    split: val
+

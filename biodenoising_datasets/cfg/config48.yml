@@ -1,0 +1,489 @@
+# Output data config
+output:
+  audio_timelength: 30.0 
+  targetsr: 48000
+  seed: 42
+
+# Input Data config
+input:
+  # noaa_sanctsound_small_noise:
+  #   download: yes
+  #   path: noaa_sanctsound
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 48000
+  #   tag: noise
+  #   split: train
+  #   nparts: 6
+  # lemur:
+  #   download: yes
+  #   path: lemur
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 32000
+  #   tag: noisy
+  #   split: dev
+  # xeno_canto_labeled:
+  #   download: yes
+  #   path: xeno_canto_labeled
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # thyolo:
+  #   download: yes
+  #   path: thyolo
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 32000
+  #   tag: noisy
+  #   split: dev
+  # gibbons:
+  #   download: yes
+  #   path: gibbons
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 48000
+  #   tag: noisy
+  #   split: dev
+  # whydah:
+  #   download: yes
+  #   path: whydah
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 48000
+  #   tag: noisy
+  #   split: dev
+  # deepship:
+  #   download: yes
+  #   path: deepship
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # watkins:
+  #   download: yes
+  #   path: watkins
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # orcasound_humpback_ev:
+  #   download: yes
+  #   time_stretch: no
+  #   path: orcasound_humpback_ev
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # orcasound_aldev:
+  #   download: yes
+  #   time_stretch: no
+  #   path: orcasound_aldev_calls
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # orcasound_skrw_labeled:
+  #   download: yes
+  #   path: orcasound_skrw_labeled
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # south_alaskan_humpback_whales:
+  #   download: yes
+  #   path: south_alaskan_humpback_whales_raw
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 96000
+  #   tag: noisy
+  #   split: dev
+  # south_alaskan_humpback_whales_noise:
+  #   download: yes
+  #   path: south_alaskan_humpback_whales_raw
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 96000
+  #   tag: noise
+  #   split: train
+  # orchive:
+  #   download: yes
+  #   path: orchive
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # marsmbari_noise:
+  #   path: marsmbari
+  #   download: yes
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 256000
+  #   tag: noise
+  #   split: train
+  # orcasound_bestos_noise:
+  #   path: orcasound_bestos
+  #   download: yes
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # orcasound_shipnoise:
+  #   path: orcasound_shipnoise
+  #   download: yes
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 96000
+  #   tag: noise
+  #   split: train
+  # infant_marmoset:
+  #   download: yes
+  #   path: infant_marmoset
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+  # egyptian_fruit_bats:
+  #   download: yes
+  #   path: egyptian_fruit_bats
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 256000
+  #   tag: clean
+  #   split: train
+  # dolphins_signature_whistles:
+  #   download: yes
+  #   path: dolphins_signature_whistles
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # giant_otters:
+  #   download: yes
+  #   path: giant_otters
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+  # macaques:
+  #   download: yes
+  #   path: macaques
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+  # geladas:
+  #   download: yes
+  #   path: geladas
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # vocalset:
+  #   download: yes
+  #   path: vocalset
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+  # nsynth:
+  #   download: yes
+  #   path: nsynth
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+  urbansound:
+    download: yes
+    path: UrbanSound
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  # idmt_traffic:
+  #   download: yes
+  #   path: idmt_traffic
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # tut2016:
+  #   download: yes
+  #   path: tut2016
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # macaques:
+  #   download: yes
+  #   path: macaques
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+  fsd50k:
+    download: yes
+    path: FSD50K
+    time_stretch: no
+    add_offset: no
+    repeat: no
+    sample_rate: 44100
+    tag: noise
+    split: train
+  # shipsear:
+  #   download: yes
+  #   path: shipsear
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # sabiod_samples:
+  #   download: yes
+  #   path: sabiod_samples
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # dcase_few_shot_noise:
+  #   download: yes
+  #   path: dcase_few_shot
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # dcase_few_shot:
+  #   download: yes
+  #   path: dcase_few_shot
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # coffee_farms_noise:
+  #   download: yes
+  #   path: coffee_farms
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # coffee_farms:
+  #   download: yes
+  #   path: coffee_farms
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # high_sierras_noise:
+  #   download: yes
+  #   path: high_sierras
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # high_sierras:
+  #   download: yes
+  #   path: high_sierras
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # peru_noise:
+  #   download: yes
+  #   path: peru
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # peru:
+  #   download: yes
+  #   path: peru
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # sierra_nevada_noise:
+  #   download: yes
+  #   path: sierra_nevada
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # sierra_nevada:
+  #   download: yes
+  #   path: sierra_nevada
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # powdermill_noise:
+  #   download: yes
+  #   path: powdermill
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # powdermill:
+  #   download: yes
+  #   path: powdermill
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # sapsucker_woods_noise:
+  #   download: yes
+  #   path: sapsucker_woods
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # sapsucker_woods:
+  #   download: yes
+  #   path: sapsucker_woods
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # asa_berlin_reference:
+  #   download: yes
+  #   path: asa_berlin
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # anuran:
+  #   download: yes
+  #   path: anuran
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noisy
+  #   split: dev
+  # gombe_chimpanzee:
+  #   download: yes
+  #   path: gombe_chimpanzee
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 96000
+  #   tag: noisy
+  #   split: dev
+  # anuraset:
+  #   download: yes
+  #   path: anuraset
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 22050
+  #   tag: noisy
+  #   split: dev
+  # wytham_great_tit_song:
+  #   download: yes
+  #   path: wytham_great_tit_song
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 48000
+  #   tag: noisy
+  #   split: dev
+  # orcasound_sep_noise:
+  #   download: yes
+  #   path: orcasound_sep
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: noise
+  #   split: train
+  # orcasound_sep:
+  #   download: yes
+  #   path: orcasound_sep
+  #   time_stretch: no
+  #   add_offset: no
+  #   repeat: no
+  #   sample_rate: 44100
+  #   tag: clean
+  #   split: train
+
+
+
