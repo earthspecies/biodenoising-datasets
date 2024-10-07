@@ -7,6 +7,8 @@ The datasets and the library were used in the following paper:
 
 ```Marius Miron, Sara Keen, Jen-Yu Liu, Benjamin Hoffman, Masato Hagiwara, Olivier Pietquin, Felix Effenberger, Maddie Cusimano, "Biodenoising: animal vocalization denoising without access to clean data"```
 
+We publish the pre-print on [arXiv](https://arxiv.org/abs/2410.03427).
+
 Here we provide the code to download the data. The training code is at the [github repo](https://github.com/earthspecies/biodenoising). If you solely plan to do inference go to the following [github repo](https://github.com/earthspecies/biodenoising-inference)
 
 Check the [biodenoising web page](https://mariusmiron.com/research/biodenoising) for demos and more info.
@@ -69,7 +71,21 @@ Then you need to define the list of datasets:
     split: dev
 ```
 
-The fields tag and split are used to define the folders where the audio files are stored with the path: /home/$USER/data/biodenoising16k/tag/split/dataset_name/. 
+The fields tag and split are used to define the folders where the audio files are stored with the path: /home/$USER/data/biodenoising16k/tag/split/dataset_name/.
+
+## Citation
+If you use the code in your research, then please cite it as:
+```
+@misc{miron2024biodenoisinganimalvocalizationdenoising,
+      title={Biodenoising: animal vocalization denoising without access to clean data}, 
+      author={Marius Miron and Sara Keen and Jen-Yu Liu and Benjamin Hoffman and Masato Hagiwara and Olivier Pietquin and Felix Effenberger and Maddie Cusimano},
+      year={2024},
+      eprint={2410.03427},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2410.03427}, 
+}
+```
 
 ### TO DO list
 
