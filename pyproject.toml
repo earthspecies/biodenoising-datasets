@@ -16,7 +16,7 @@ authors = [
   { name="Marius Miron", email="info@mariusmiron.com" },
 ]
 readme = "README.md"
-dependencies = ['julius', 'numpy>=1.19', 'six', 'protobuf==3.20.*', 'torch>=1.5', 'torchaudio>=0.5', 'tfrecord', 'soundfile', 'librosa', 'torch_time_stretch', 'pandas', 'noisereduce']
+dependencies = ['julius', 'numpy>=1.19', 'six', 'protobuf==3.20.*', 'torch>=1.5', 'torchaudio>=0.5', 'tfrecord', 'soundfile', 'librosa', 'torch_time_stretch', 'pandas', 'noisereduce', 'pyyaml', 'asteroid']
 
 classifiers=[
         'Topic :: Multimedia :: Sound/Audio :: Analysis',

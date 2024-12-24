@@ -10,3 +10,4 @@ pandas
 noisereduce
 asteroid
 librosa
+pyyaml
